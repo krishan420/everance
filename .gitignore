@@ -1,3 +1,6 @@
+# ZIP files
+*.zip
+
 # Logs
 logs
 *.log
@@ -6,15 +9,19 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-history
+
+# History
 .history
 .history/
 .history/*
 
+# Dependencies & build
 node_modules
 dist
 dist.zip
 dist-ssr
+
+# Env
 *.local
 *.env
 .env
